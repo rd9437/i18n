@@ -179,7 +179,7 @@ export class AppComponent {
     <button type="button" class="btn btn-sm btn-outline-secondary" (click)="changeLanguage('pt-BR')" [class.active]="translateService.currentLang === 'pt-BR'">Português</button>
   </div>
 
-  <h3>{{ "hello" | translate: { name: "Angular" } }}</h3>
+  
 </div>
 ```
 
